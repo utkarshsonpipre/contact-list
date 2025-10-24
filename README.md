@@ -2,6 +2,8 @@
 
 A modern, responsive single-page React application for managing contacts with real-time search, add contact functionality, and MongoDB persistence.
 
+🚀 **Live Demo:** https://contact-list-lovat-psi.vercel.app/
+
 ## Features
 
 ✅ **View Contacts**: Display a list of 7-8 seeded temporary contacts on the front page (immediate load).  
