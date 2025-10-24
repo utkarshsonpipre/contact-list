@@ -1,0 +1,29 @@
+.toast {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  background: rgba(0, 255, 136, 0.15);
+  color: var(--accent-green);
+  padding: 16px 24px;
+  border-radius: 12px;
+  border: 2px solid var(--border-color);
+  box-shadow: 0 8px 32px rgba(0, 255, 136, 0.25);
+  font-size: 14px;
+  font-weight: 600;
+  max-width: 400px;
+  word-wrap: break-word;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  transition: all 0.4s ease;
+}
+
+@media (max-width: 640px) {
+  .toast {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
